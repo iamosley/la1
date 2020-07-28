@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+<!-- Load the element definition -->
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+<html lang="en">
+<head>
+ <title>Language Areas</title>
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+ <!-- div class="container">
+  <h1><a href="https://iamosley.github.io/la">Language Areas</a></h1>
+   </div -->
+</head>
+<body>
+ <div class="container">
+<div class="row">
+ <div class="col-md-8">
+  <h1>Language Areas</h1>
+  <p>A density based approach</p>
+  <img alt="Toronto Language Areas" src="./img/TorontoLAsmall.png">
+
+  <!-- Simply set the `src` attribute to your MD file and win -->
+  <zero-md src="README.md"></zero-md>
+   
+  <h3><a href="https://iamosley.github.io/la/la_001.html">Data Prep and Spatial Dissolve</a></h3>
+  <label>2020-07-15</label>
+  <!-- <h1>ETL for Demographic and Geographic data from StatCan</h1> -->
+  <!-- <p>Which Single Response Languages from the 2016 Census have the highest population density by LA per Dissemination Area (aka neighbourhood). --> 
+  <p>ETL for Demographic and Geographic data from StatCan</p>
+
+   <h3><a href="https://iamosley.github.io/la/la_002.html">Reassemble Dissolve and Explode</a></h3>
+   <label>2020-07-16</label>
+   <!-- <h1>Combine Multiprocessing Outputs Into a Single DataFrame</h1> -->
+<p>Multiprocessing shortened processing from ~20 hours to ~5 hours. However, multiple data frames need to be recombined and then geometrically exploded to provide similar output to the original serial approach.</p>
+
+   <h3><a href="https://iamosley.github.io/la/la_003.html">Calculate Membership</a></h3>
+   <label>2020-07-16</label>
+   <!-- <h1>Calculate DA Membership for each LA</h1> -->
+<p>Principal computation is determining which DAs belong to each individual LA. The spatial operation 'within' was onerous and the calculations were split across multiple sessions. Only one seesion is presented here for clarity.</p>
+
+   <h3><a href="https://iamosley.github.io/la/la_004.html">LA Statistics</a></h3>
+   <label>2020-07-20</label>
+   <!-- <h1>Unravel LA-DA spatial intersections</h1> -->
+<p>Calculate population, area and density values based on LA-DA intersections.</p>
+
+   <h3><a href="https://iamosley.github.io/la/la_005.html">Dominant Densities</a></h3>
+   <label>2020-07-22</label>
+   <!-- <h1>The Goal: Determine the Densest LA for each DA</h1> -->
+<p>Which LA best represents the DA? Calculate the population density per LA and rank them across each constituent DA (there can be many LAs for a single DA). LA with rank '1' for a specific DA is the most representative.</p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
