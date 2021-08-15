@@ -33,13 +33,13 @@ Well, I used an *unusual* calculation for density. This is not simply the DA's l
 Let's have a look at DA 35202296 and its two LA polygons representing Portuguese and Spanish.
 
 #### Figure 1.
-![alt text](https://iamosley.github.io/la/img/da_la_overlap.png "Figure 1.")
+![alt text](https://iamosley.github.io/la1/img/da_la_overlap.png "Figure 1.")
 
 The red outline is DA 35202296, and the '///' hatched areas are Portuguese speaking areas, and '\\\\\\' hatched areas are Spanish. Many of the areas are both, including the DA in question. Given that Portuguese has the highest density, this DA would be hatched '///' in a single-value map.
 
 Here is the map re-presented with dominant language based on LA density: green showing Portuguese and blue for Spanish. (Uncoloured areas have been assigned a language other than Portuguese or Spanish in the complete analysis.)
 
 #### Figure 2.
-![alt text](https://iamosley.github.io/la/img/da_la_overlap_single.png "Figure 2.")
+![alt text](https://iamosley.github.io/la1/img/da_la_overlap_single.png "Figure 2.")
 
 As is seen in **Figure 2**, the target DA is Portuguese confirming the calculations from **Table 2**. Interesting to note that when DAs comprise both Portuguese and Spanish, Portuguese is the more representative from an LA perspective. 
