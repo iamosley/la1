@@ -2,11 +2,9 @@
 Since the base profile data from StatCan is large (~14GB) and I only need a small portion of that, some ETL is required for efficient processing. The ETL also considers the detailed metadata that StatsCan uses for statistical significance and suppression.
 
 ### Sources:
-Statistics Canada. No date. Census Profile - Age, Sex, Type of Dwelling, Families, Households, Marital Status, Language, Income, Immigration and Ethnocultural Diversity, Housing, Aboriginal Peoples, Education, Labour, Journey to Work, Mobility and Migration, and Language of Work for Canada, Provinces and Territories, Census Divisions, Census Subdivisions and Dissemination Areas, 2016 Census (Database). Release Date November 29, 2017
-https://www150.statcan.gc.ca/n1/en/catalogue/98-401-X2016044
+[Statistics Canada. No date. Census Profile - Age, Sex, Type of Dwelling, Families, Households, Marital Status, Language, Income, Immigration and Ethnocultural Diversity, Housing, Aboriginal Peoples, Education, Labour, Journey to Work, Mobility and Migration, and Language of Work for Canada, Provinces and Territories, Census Divisions, Census Subdivisions and Dissemination Areas, 2016 Census (Database). Release Date November 29, 2017](https://www150.statcan.gc.ca/n1/en/catalogue/98-401-X2016044)
 
-Statistics Canada. No date. 2016 Census - Boundary files, English, ArcGis&reg;, Dissemination areas (Cartographic Boundary File).
-https://www12.statcan.gc.ca/census-recensement/alternative_alternatif.cfm?l=eng&dispext=zip&teng=lda_000b16a_e.zip&k=%20%20%20%2090414&loc=http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/2016/lda_000b16a_e.zip
+[Statistics Canada. No date. 2016 Census - Boundary files, English, ArcGis&reg;, Dissemination areas (Cartographic Boundary File).](https://www12.statcan.gc.ca/census-recensement/alternative_alternatif.cfm?l=eng&dispext=zip&teng=lda_000b16a_e.zip&k=%20%20%20%2090414&loc=http://www12.statcan.gc.ca/census-recensement/2011/geo/bound-limit/files-fichiers/2016/lda_000b16a_e.zip)
 
 
 ```python
